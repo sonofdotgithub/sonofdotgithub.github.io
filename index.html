@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Home Page | Son Of Dot</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/uicons-regular-rounded.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<style type="text/css">
+body{
+color:#1e1e1e;
+font-family: 'Work Sans', sans-serif;
+font-weight:400;
+font-size:16px;
+}
+	
+*:focus{
+box-shadow:none !important;
+outline: 0 !important;
+}
+	
+h1{
+font-weight:700;
+font-size:calc(1.875rem + 2.5vw);
+letter-spacing:0px;
+}
+
+.container{
+max-width:1140px;
+padding-left: 16px;
+padding-right: 16px;
+}
+	
+.navbar-brand{
+font-size:1.5em;
+font-weight:500;
+color:#000000 !important;
+letter-spacing:-0.04em;
+}
+
+.navbar{
+padding:12px 0;
+}
+	
+.nav-link{
+color:#1e1e1e !important;
+font-size:20px;
+letter-spacing:-0.04em;
+}
+	
+.hero-container{
+height:calc(100vh - 64px);
+min-height:calc(640px - 64px);
+}
+	
+.hero-container p{
+font-size:1.25em;
+}
+	
+.btn-primary{
+color: #e6007a;
+background-color: transparent;
+border-color: #e6007a;
+position: relative;
+z-index: 1;
+overflow: hidden;
+border: solid 1px #e6007a;
+border-radius:2em;
+padding:16px 20px;
+font-weight:900;
+letter-spacing:0px;
+}
+	
+.btn-primary:hover, .btn-primary:focus {
+background-color: #e6007a !important;
+font-color:#FFFFFF !important;
+border: solid 1px #e6007a !important;
+}
+	
+.about-container{
+background:#172026;
+color:#ffffff;
+}
+	
+.roadmap-container{
+background:#e6007a;
+color:#ffffff;
+}
+	
+.dashboard-container{
+background:#FFFFFF;
+}
+	
+.footer-container{
+background:#172026;
+color:#ffffff;
+}
+	
+h2{
+font-size:2.5em;
+font-weight:700;
+}
+	
+.about-title{
+display:inline-block;
+position:relative;
+z-index:1;
+}
+	
+
+.features-title{
+position:relative;
+z-index:1;
+display:inline-block;
+}
+	
+
+.roadmap-title{
+position:relative;
+z-index:1;
+display:inline-block;
+}
+	
+
+.dashboard-title{
+position:relative;
+z-index:1;
+display:inline-block;
+}
+	
+.under-development-message{
+top: 0;
+left: 0;
+position: absolute;
+width: 100%;
+height: 100%;
+background: rgba(0,0,0,0.5);
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.5em;
+font-weight: 700;
+color:#FFFFFF;
+}
+	
+.roadmap-container ul > li {
+margin-bottom:4px;
+margin-top:4px;
+}	
+	
+.footer-container ul > li {
+display: inline-block;
+zoom:1;
+margin-left:8px;
+margin-right:8px;
+margin-bottom:8px;
+}
+
+.footer-container a {
+color:#FFFFFF;
+font-size:1.25em;
+}
+
+@media (min-width: 576px){
+.hero-container p{
+font-size:1.25em;
+}
+		
+h1{
+font-weight:700;
+font-size:calc(1.7rem + 1.5vw);
+letter-spacing:0px;
+}
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+.hero-container p{
+font-size:1.5em;
+}
+	
+.navbar-expand-lg .navbar-nav .nav-link {
+padding-right: 1.125rem;
+padding-left: 1.125rem;	
+}
+
+.navbar-expand-lg .navbar-nav .nav-item:last-child > .nav-link{
+padding-right: 0rem !important;
+}}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {
+h1{
+font-weight:700;
+font-size:calc(3.375rem + 2.5vw);
+letter-spacing:0px;
+}
+}
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light" id="#home">
+<div class="container">
+<a class="navbar-brand" href="#">$SOD<span style="color:#e6007a;">.</span></a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" aria-current="page" href="#home">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#roadmap">Roadmap</a></li>
+<li class="nav-item"><a class="nav-link" href="#dashboard">Dashboard</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<div class="container hero-container py-5 d-flex flex-column justify-content-center align-items-center">
+<div class="row">
+<div class="col-12 d-flex flex-column justify-content-center align-items-center">
+<img width="100%;" src="images/hero-image.svg"/>
+<p class="mt-5 mb-5 text-center">The biggest DOT reflection token and the first with manual-claim feature. Simply hold $SOD tokens in your wallet and you'll earn DOT.</p>
+<div class="d-flex flex-column flex-sm-row mt-2 button-">
+<a type="button" class="btn btn-primary m-2" href="https://pancakeswap.finance/swap?outputCurrency=0x6a5d6bed5aa0d090c43ee470de764acc8c3ba50e" target="_blank">Buy On Pancakeswap</a>
+<a type="button" class="btn btn-primary m-2" href="https://t.me/SonOfDot" target="_blank">Join Our Telegram</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="about-container" id="about">
+<div class="container py-5">
+<div class="text-center"><h2 class="mt-4 mb-4 about-title">About Son Of Dot</h2></div>
+<div class="row mb-5">
+<div class="col-12 text-center">
+<p>Son Of Dot is a community-driven token that evolutionize the yield-generating contract on the Binance Smart Chain: you get rewarded in DOT instead of tokens. <b>How does it work?</b> It works by using a proxy contract that distributes the Polkadot rewards. You will get airdropped your rewards four times a day without the need to claim them somewhere. Just sit back and watch your DOT bags grow.</p>
+</div>
+</div>
+<div class="text-center"><h2 class="features-title">Features</h2></div>
+<div class="row mt-4 mb-4">
+<div class="col-12 col-lg-4 mb-4">
+<div class="d-flex flex-column justify-content-center align-items-center px-3 py-5 mx-auto" style="border:1px solid #e6007a;border-radius:2em;max-width:520px;">
+<span class="text-center mb-2" style="font-size:1.5em;font-weight:700;">2% DOT Reflections</span>
+<span class="text-center">2% of every transaction is taken and redistributed to all $SOD holders. Hold $SOD tokens, earn DOT.</span>
+</div>
+</div>
+<div class="col-12 col-lg-4 mb-4">
+<div class="d-flex flex-column justify-content-center align-items-center px-3 py-5 mx-auto" style="border:1px solid #e6007a;border-radius:2em;max-width:520px;">
+<span class="text-center mb-2" style="font-size:1.5em;font-weight:700;">9% Marketing Fee</span>
+<span class="text-center">9% of every transaction is taken and will be used for enhancements, operations, and marketing of the project.</span>
+</div>
+</div>
+<div class="col-12 col-lg-4 mb-4">
+<div class="d-flex flex-column justify-content-center align-items-center px-3 py-5 h-100 mx-auto" style="border:1px solid #e6007a;border-radius:2em;max-width:520px;">
+<span class="text-center mb-2" style="font-size:1.5em;font-weight:700;">1% Liquidity Pool</span>
+<span class="text-center">1% of every transaction is transformed into liquidity. It's automatic and helps create a price floor.</span>
+</div>
+</div>
+<div class="col-12 col-lg-4 mb-4">
+<div class="d-flex flex-column justify-content-center align-items-center px-3 py-5 mx-auto" style="border:1px solid #e6007a;border-radius:2em;max-width:520px;">
+<span class="text-center mb-2" style="font-size:1.5em;font-weight:700;">Manual Claim Rewards</span>
+<span class="text-center">You can claim your earned DOT by using a proxy contract that distributes the Polkadot rewards.</span>
+</div>
+</div>
+<div class="col-12 col-lg-4 mb-4">
+<div class="d-flex flex-column justify-content-center align-items-center px-3 py-5 mx-auto" style="border:1px solid #e6007a;border-radius:2em;max-width:520px;">
+<span class="text-center mb-2" style="font-size:1.5em;font-weight:700;">1% Max Transaction</span>
+<span class="text-center">Sells are restricted to less than 1% of the total supply to reduce swing-trading and break whales' control.</span>
+</div>
+</div>
+<div class="col-12 col-lg-4 mb-4">
+<div class="d-flex flex-column justify-content-center align-items-center px-3 py-5 mx-auto" style="border:1px solid #e6007a;border-radius:2em;max-width:520px;">
+<span class="text-center mb-2" style="font-size:1.5em;font-weight:700;">Secured By Design</span>
+<span class="text-center">Initial Liquidity Provided will be locked with PinkSale. This ensures that the project will not be rug-pulled.</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="roadmap-container" id="roadmap">
+<div class="container py-5">
+<div class="text-center"><h2 class="mt-4 mb-4 roadmap-title">Roadmap</h2></div>
+<div class="row mb-5">
+<div class="col-12 col-lg-3 text-center py-3">
+<h4>Q1</h4>
+<ul class="list-unstyled text-small text-center mt-3">
+<li>Roadmap Q1:A</li>
+<li>Roadmap Q1:B</li>
+<li>Roadmap Q1:C</li>
+<li>Roadmap Q1:D</li>
+<li>Roadmap Q1:E</li>
+<li>Roadmap Q1:F</li>
+</ul>
+</div>
+<div class="col-12 col-lg-3 text-center py-3">
+<h4>Q2</h4>
+<ul class="list-unstyled text-small text-center mt-3">
+<li>Roadmap Q2:A</li>
+<li>Roadmap Q2:B</li>
+<li>Roadmap Q2:C</li>
+<li>Roadmap Q2:D</li>
+<li>Roadmap Q2:E</li>
+<li>Roadmap Q2:F</li>
+</ul>
+</div>
+<div class="col-12 col-lg-3 text-center py-3">
+<h4>Q3</h4>
+<ul class="list-unstyled text-small text-center mt-3">
+<li>Roadmap Q3:A</li>
+<li>Roadmap Q3:B</li>
+<li>Roadmap Q3:C</li>
+<li>Roadmap Q3:D</li>
+<li>Roadmap Q3:E</li>
+<li>Roadmap Q3:F</li>
+</ul>
+</div>
+<div class="col-12 col-lg-3 text-center py-3">
+<h4>Q4</h4>
+<ul class="list-unstyled text-small text-center mt-3">
+<li>Roadmap Q4:A</li>
+<li>Roadmap Q4:B</li>
+<li>Roadmap Q4:C</li>
+<li>Roadmap Q4:D</li>
+<li>Roadmap Q4:E</li>
+<li>Roadmap Q4:F</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="dashboard-container" id="dashboard">
+<div class="container py-5">
+<div class="text-center"><h2 class="mt-4 mb-4 dashboard-title">Dashboard</h2></div>
+<div class="row mb-5">
+<div class="col-12 d-flex flex-column justify-content-center align-items-center">
+<p class="text-center" style="max-width:720px;">While you're holding $SOD tokens, you're earning DOT. You can keep track of how much you earned so far and when is the next payout from your  dashboard. Everything is updated real-time.</p>
+<div><a type="button" class="btn btn-primary m-2 mb-4" href="javascript:void(0);">Go To Dashboard</a></div>
+<div class="d-flex flex-column justify-content-center align-items-center" style="box-shadow: 5px 5px 0px 1px rgba(230, 0, 122);border-radius: 12px;max-width:720px;position:relative;overflow:hidden !important;padding:0;border-radius:12px;"><img class="img-fluid dashboard-image" src="images/dashboard-desktop-preview.png" /><div class="under-development-message">UNDER DEVELOPMENT</div></div>
+</div>
+</div>
+</div>
+</div>
+	
+<div class="footer-container">
+<div class="container py-5">
+<div class="row mt-4">
+<div class="col-12 d-flex flex-column justify-content-center align-items-center">
+<ul class="list-unstyled text-small text-center">
+<li><a class="text-decoration-none mb-1" href="#" target="_blank" rel="nofollow">Telegram</a></li>
+<li><a class="text-decoration-none" href="#" target="_blank" rel="nofollow">Discord</a></li>
+<li><a class="text-decoration-none" href="#" target="_blank" rel="nofollow">Reddit</a></li>
+<li><a class="text-decoration-none" href="#" target="_blank" rel="nofollow">Instagram</a></li>
+<li><a class="text-decoration-none" href="#" target="_blank" rel="nofollow">Facebook</a></li>
+<li><a class="text-decoration-none" href="#" target="_blank" rel="nofollow">Twitter</a></li>
+</ul>
+</div>
+</div>
+<div class="row mt-5">
+<div class="col"><p class="text-center m-0">Copyright © 2021 | All Rights Reserved</p></div>
+</div>
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
