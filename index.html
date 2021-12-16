@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <style type="text/css">
 body{
 color:#1e1e1e;
@@ -137,7 +138,7 @@ left: 0;
 position: absolute;
 width: 100%;
 height: 100%;
-background: rgba(0,0,0,0.5);
+background: rgba(0,0,0,0.75);
 display: flex;
 justify-content: center;
 align-items: center;
@@ -221,7 +222,7 @@ letter-spacing:0px;
 </div>
 </nav>
 
-<div class="container hero-container py-5 d-flex flex-column justify-content-center align-items-center">
+<div class="container hero-container py-5 d-flex flex-column justify-content-center align-items-center aos-init aos-animate" data-aos="fade-up">
 <div class="row">
 <div class="col-12 d-flex flex-column justify-content-center align-items-center">
 <img width="100%;" src="images/hero-image.svg"/>
@@ -235,8 +236,8 @@ letter-spacing:0px;
 </div>
 
 <div class="about-container" id="about">
-<div class="container py-5">
-<div class="text-center"><h2 class="mt-4 mb-4 about-title">About</h2></div>
+<div class="container py-5 aos-init aos-animate" data-aos="fade-up">
+<div class="text-center aos-init aos-animate" data-aos="fade-up"><h2 class="mt-4 mb-4 about-title">About</h2></div>
 <div class="row mb-5">
 <div class="col-12 text-center">
 <p>Son Of Dot is a community-driven token that evolutionize the yield-generating contract on the Binance Smart Chain: you get rewarded in DOT instead of tokens. <b>How does it work?</b> It works by using a proxy contract that distributes the Polkadot rewards. You will get airdropped your rewards four times a day without the need to claim them somewhere. Just sit back and watch your DOT bags grow.</p>
@@ -285,7 +286,7 @@ letter-spacing:0px;
 </div>
 
 <div class="roadmap-container" id="roadmap">
-<div class="container py-5">
+<div class="container py-5 aos-init aos-animate" data-aos="fade-up">
 <div class="text-center"><h2 class="mt-4 mb-4 roadmap-title">Roadmap</h2></div>
 <div class="row mb-5">
 <div class="col-12 col-lg-3 text-center py-3">
@@ -337,14 +338,33 @@ letter-spacing:0px;
 </div>
 
 <div class="dashboard-container" id="dashboard">
-<div class="container py-5">
-<div class="text-center"><h2 class="mt-4 mb-4 dashboard-title">Dashboard</h2></div>
-<div class="row mb-5">
-<div class="col-12 d-flex flex-column justify-content-center align-items-center">
-<p class="text-center" style="max-width:720px;">While you're holding $SOD tokens, you're earning DOT. You can keep track of how much you earned so far and when is the next payout from your  dashboard. Everything is updated real-time.</p>
-<div><a type="button" class="btn btn-primary m-2 mb-4" href="javascript:void(0);">Go To Dashboard</a></div>
-<div class="d-flex flex-column justify-content-center align-items-center" style="box-shadow: 3px 3px 0px 1px rgba(230, 0, 122);border-radius: 12px;max-width:720px;position:relative;overflow:hidden !important;padding:0;border-radius:12px;"><img class="img-fluid dashboard-image" src="images/dashboard-desktop-preview.png" /><div class="under-development-message">Under Development</div></div>
+<div class="container py-5 aos-init aos-animate" data-aos="fade-up">
+<div class="text-center"><h2 class="mt-4 mb-5 dashboard-title">Decentralized Apps</h2></div>
+<div class="row">
+<div class="col-12 col-md-6 col-lg-6 mb-5">
+<div class="text-center"><h3 class="mb-3" style="font-weight:700;font-size:1.5em;font-weight:500;">$SOD<span style="color:#e6007a;">.</span>Tracker</h3></div>
+<p class="text-center mb-4" style="max-width:720px;">Keep track of how much $DOT you earned so far and when is the next payout from your dashboard.</p>
+<div class="d-flex flex-column justify-content-center align-items-center" style="box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;border-radius: 12px;max-width:720px;position:relative;overflow:hidden !important;padding:0;border-radius:12px;"><img class="img-fluid dashboard-image" src="images/sod-manager-preview-3.png" /><div class="under-development-message d-none">Under Development</div></div>
 </div>
+<div class="col-12 col-md-6 col-lg-6 mb-5">
+<div class="text-center"><h3 class="mb-3" style="font-weight:700;font-size:1.5em;font-weight:500;">$SOD<span style="color:#e6007a;">.</span>Swap</h3></div>
+<p class="text-center mb-4" style="max-width:720px;">Securely swap your tokens without ever having to remove them from the safety of SODWallet.</p>
+<div class="d-flex flex-column justify-content-center align-items-center" style="box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;border-radius: 12px;max-width:720px;position:relative;overflow:hidden !important;padding:0;border-radius:12px;"><img class="img-fluid dashboard-image" src="images/sod-swap-preview.png" /><div class="under-development-message d-none">Under Development</div></div>
+</div>
+<div class="col-12 col-md-6 col-lg-6 mb-5">
+<div class="text-center"><h3 class="mb-3" style="font-weight:700;font-size:1.5em;font-weight:500;">$SOD<span style="color:#e6007a;">.</span>Bridge</h3></div>
+<p class="text-center mb-4" style="max-width:720px;">Bridge, trade and transfer cryptocurrencies across blockchains at the block speed.</p>
+<div class="d-flex flex-column justify-content-center align-items-center" style="box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;border-radius: 12px;max-width:720px;position:relative;overflow:hidden !important;padding:0;border-radius:12px;"><img class="img-fluid dashboard-image" src="images/sod-bridge-preview.png" /><div class="under-development-message d-none">Under Development</div></div>
+</div>
+<div class="col-12 col-md-6 col-lg-6 mb-5">
+<div class="text-center"><h3 class="mb-3" style="font-weight:500;font-size:1.5em;">$SOD<span style="color:#e6007a;">.</span>Wallet</h3></div>
+<p class="text-center mb-4" style="max-width:720px;">Add an additional layer of security to your existing crypto wallet by securing your holdings directly on the blockchain.</p>
+<div class="d-flex flex-column justify-content-center align-items-center" style="box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;border-radius: 12px;max-width:720px;position:relative;overflow:hidden !important;padding:0;border-radius:12px;"><div style="background:url('images/sod-wallet-preview.jpg');background-size: cover;position: relative;width: 100%;padding-top: 60%; /* 16:9 Aspect Ratio */"></div><div class="under-development-message">Under Development</div></div>
+</div>
+</div>
+<div class="d-flex flex-column justify-content-center align-items-center mb-4">
+<div class="text-center mt-4" style="font-weight:400;font-size:40px;">And more DApps to be announced.</div>
+<a type="button" class="btn btn-primary mx-auto d-inline-block mt-5" href="https://t.me/SonOfDot" target="_blank">Join Our Community</a>
 </div>
 </div>
 </div>
@@ -368,8 +388,11 @@ letter-spacing:0px;
 </div>
 </div>
 </div>
-
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+		AOS.init();
+		</script>
 </body>
 </html>
